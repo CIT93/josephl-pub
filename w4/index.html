@@ -1,8 +1,21 @@
-<h1>Hello Passerbyer</h1>
+<!-- added html info to doc after reviewing code -->
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Wanderer</title>
+    <!-- //added script to connect docs -->
+    <script type="module" src="app.js" defer></script>
+</head>
+<body>
+<h1>Hello Wanderer</h1>
 <form id="formHandler">
-    <input id="inputName">Your name</input>
-    <button type="submit"></button>
+    <input type="text" id="textBoxInput" placeholder="Name">
+    <button type="submit" id="submitFormButton">Submit</button>
+    <!-- reviewed code/ added clear form button -->
+    <button type="button" id="clearFormButton" class="secondary-button">Clear Form</button>
 </form>
-<h2 id="finalGreet"></h2>
+<h2 type="text" id="textOutput"></h2>
 
-<script name="app.js"> defer</script>
+</body>
